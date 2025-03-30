@@ -1,0 +1,2 @@
+# Speccs
+Document your home
