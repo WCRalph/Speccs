@@ -1,0 +1,4 @@
+Flask>=2.0
+psycopg2-binary>=2.9 # PostgreSQL adapter for Python
+python-dotenv>=0.19 # To load environment variables from .env file
+# Add other dependencies here as needed (e.g., SQLAlchemy for ORM)
