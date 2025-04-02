@@ -1,4 +1,6 @@
 Flask>=2.0
-psycopg2-binary>=2.9 # PostgreSQL adapter for Python
-python-dotenv>=0.19 # To load environment variables from .env file
-# Add other dependencies here as needed (e.g., SQLAlchemy for ORM)
+psycopg2-binary>=2.9 # Still needed by SQLAlchemy to talk to Postgres
+python-dotenv>=0.19
+Flask-SQLAlchemy>=2.5 # The ORM extension
+Flask-Migrate>=3.1 # For database migrations (uses Alembic)
+SQLAlchemy>=1.4 # Flask-SQLAlchemy depends on this
